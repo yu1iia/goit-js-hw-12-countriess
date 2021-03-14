@@ -1,0 +1,57 @@
+@import '../node_modules/@pnotify/core/dist/PNotify.css';
+@import '../node_modules/@pnotify/mobile/dist/PNotifyMobile.css';
+@import '../node_modules/@pnotify/core/dist/Material.css';
+@import '../node_modules/material-design-icons/iconfont/material-icons.css';
+
+html {
+  box-sizing: border-box;
+}
+.search {
+  display: block;
+  width: 25%;
+  padding: 10px 10px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.search-results {
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+body {
+  background-image: url('./img/map-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 120px;
+}
+.country-name {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10px;
+}
+.country-list {
+  width: 400px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+}
+.country-properties {
+  margin-right: 30px;
+  color: rgb(255, 255, 255);
+}
+.country-property {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 700;
+}

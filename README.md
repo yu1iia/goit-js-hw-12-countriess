@@ -1,1 +1,2 @@
-# goit-js-hw-12-countriess
+# goit-js-hw-12-countries
+hw-12
