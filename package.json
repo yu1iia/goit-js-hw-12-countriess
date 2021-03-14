@@ -7,16 +7,16 @@
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/yu1iia/goit-js-hw-12-countries"
+    "deploy": "gh-pages -d build -r https://github.com/yu1iia/goit-js-hw-12-countriess"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yu1iia/goit-js-hw-12-countries.git"
+    "url": "git+https://github.com/yu1iia/goit-js-hw-12-countriess.git"
   },
   "keywords": [],
   "author": "Yuliia Burko <yuliia.burko@gmail.com>",
   "license": "MIT",
-  "homepage": "https://yu1iia.github.io/goit-js-hw-12-countries",
+  "homepage": "https://yu1iia.github.io/goit-js-hw-12-countriess",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
